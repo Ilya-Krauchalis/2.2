@@ -1,0 +1,253 @@
+@font-face {
+    font-family: "Abhaya-Libre";
+    src: url("fonts/Abhaya/AbhayaLibre-Regular.ttf");
+}
+@font-face {
+    font-family: "Abhaya-Libre-Bold";
+    src: url("fonts/Abhaya/AbhayaLibre-Bold.ttf");
+}
+@font-face {
+    font-family: "Roboto";
+    src: url("fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("fonts/Roboto/Roboto-Bold.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.gray{
+    color: #717171;
+}
+.menu{
+    display: flex;
+    width: 1231px;
+    margin: 20px auto 20px 359px;
+}
+.logo{
+    background: url(img/logo.png);
+    width: 215px;
+    height: 54px;
+}
+.saus{
+    width: 198px;
+    margin: 8px auto 0px 30px;
+}
+.favorite{
+    background: url(img/favorite.png);
+    width: 36px;
+    height: 33px;
+    margin-top: 4px;
+}
+.logo-basket{
+    background: url(img/basket.png);
+    width: 46px;
+    height: 46px;
+    margin: 4px 0 auto 25px;
+}
+.basket{
+    margin: 8px 58px 0 13px;
+}
+span{
+    font-family: "Abhaya-Libre";
+    color:#0E2149;
+    line-height: 130%;
+    font-size: 18px;
+}
+.price{
+    font-family: 'Roboto-Bold';
+    color:#0E2149;
+    line-height: 130%;
+
+}
+.search{
+    display: flex;
+    width: 1920px;
+    height: 50px;
+    background: #0E2149;;
+}
+.search,ul,li{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+ul{
+    list-style-type: none ;
+    gap: 68px;
+    align-items: center;
+    display: flex;
+    margin-left: 361px;
+}
+.seek{
+    background: #253B6A;
+    display: flex;
+    align-items: center;
+    width: 348px;
+    margin-left: 247px;
+}
+.seek-img{
+    background: url(img/seek.png);
+    width: 18.71px;
+    height: 18.71px;
+    margin-left: -248px;
+}
+.white{
+    color: white;
+    font-size: 13px;
+    padding-left: 23px;
+    width: 540px;
+}
+.truth{
+    background: url(img/truth.png);
+    width: 1920px;
+    height: 540px;
+    margin: 0 auto;
+}
+h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #FFFFFF;
+    width: 1558px;
+    height: 61px;
+    padding: 110px 0 0 362px;
+}
+.upper{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 130%;
+    color: #FFFFFF;
+    padding: 32px 0 0 362px;
+    width: 322px;
+    height: 128px;
+}
+.button{
+    font-family: 'Roboto';
+    font-size: 18px;
+    line-height: 130%;
+    width: 164px;
+    height: 46px;
+    background: #0E2149;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 17px 0 0 360px;
+}
+.container{
+    display: grid;
+    width: 1181px;
+    height: 800px;
+    grid-template-areas:
+    "A A A A   B B B B   C C C C"
+    "A A A A   B B B B   C C C C"
+    "A A A A   B B B B   C C C C"
+    "D D D D   D D E E   E E E E"
+    "D D D D   D D E E   E E E E"
+    "D D D D   D D E E   E E E E"
+    "F F F F   G G G G   H H H H"
+    "F F F F   G G G G   H H H H"
+    "F F F F   G G G G   H H H H";
+    margin: 0 auto;
+    gap: 20px;
+    margin-top: 63px;
+}
+.box-1{
+    grid-area: A;
+    background: url(img/meat.png);
+    width: 386px;
+    height: 260px;
+}
+.box-2{
+    grid-area: B;
+    background: url(img/milk.png);
+    width: 386px;
+    height: 260px;
+}
+.box-3{
+    grid-area: C;
+    background: url(img/fish.png);
+    width: 386px;
+    height: 260px;
+}
+.box-4{
+    grid-area: D;
+    background: url(img/Beer.png);
+    width: 590px;
+    height: 260px;
+}
+.box-5{
+    grid-area: E;
+    background: url(img/berri.png);
+    width: 590px;
+    height: 260px;
+}
+.box-6{
+    grid-area: F;
+    background: url(img/honey.png);
+    width: 386px;
+    height: 260px;
+}
+.box-7{
+    grid-area: G;
+    background: url(img/veget.png);
+    width: 386px;
+    height: 260px;
+}
+.box-8{
+    grid-area: H;
+    background: url(img/fruits.png);
+    width: 386px;
+    height: 260px;
+}
+h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    color: #FFFFFF;
+    width: 140px;
+}
+.group{
+    line-height: 120%;
+    color: #FFFFFF;
+    margin:10px 0 0 29px;
+    width: 220px;
+}
+.group1{
+    margin: 0 0 0 29px;
+}
+.h31{
+    margin: 88px 0 0 29px;
+}
+.cena{
+    font-family: 'Roboto';
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.h32{
+    margin: 58px 0 0 29px;
+}
+.h33{
+    margin: 58px 0 0 27px;
+}
+.group2{
+    width: 172px;
+    margin-top: 24px;
+}
+.h34{
+    width: 200px;
+    margin: 58px 0 0 27px;
+}
